@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>304</x>
+      <y>216</y>
+      <w>256</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>
+Risk Calculator System
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>496</x>
+      <y>344</y>
+      <w>152</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>
+Reference Data System
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>216</x>
+      <y>344</y>
+      <w>136</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>Trade Data System
+halign=left
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>224</x>
+      <y>376</y>
+      <w>104</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>Trade Data System
+(London)
+halign=center
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>224</x>
+      <y>416</y>
+      <w>120</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>Trade Data System
+(New York)
+halign=center
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>224</x>
+      <y>456</y>
+      <w>112</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>Trade Data System
+(New York)
+halign=center
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>272</x>
+      <y>256</y>
+      <w>168</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-&gt;&gt;
+read trade history data</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>504</x>
+      <y>256</y>
+      <w>224</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-&gt;&gt;
+read reference data of counterparty</panel_attributes>
+    <additional_attributes>10.0;10.0;80.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>160</y>
+      <w>136</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+Sends report/alerts</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>512</x>
+      <y>80</y>
+      <w>200</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;
+Manages Risk Parameters/User Info</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>248</x>
+      <y>144</y>
+      <w>128</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Notification System
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>216</x>
+      <y>0</y>
+      <w>96</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>Business User
+(Subscriber)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>472</x>
+      <y>0</y>
+      <w>104</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>Business User
+(Admin/Manager)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>264</x>
+      <y>80</y>
+      <w>72</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+notify</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>328</x>
+      <y>80</y>
+      <w>160</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+notify</panel_attributes>
+    <additional_attributes>180.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>152</x>
+      <y>1328</y>
+      <w>104</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>Trade Data System
+(London)
+halign=center
+group=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>152</x>
+      <y>1368</y>
+      <w>120</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>Trade Data System
+(New York)
+halign=center
+group=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>152</x>
+      <y>1408</y>
+      <w>112</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>Trade Data System
+(New York)
+halign=center
+group=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>144</x>
+      <y>1296</y>
+      <w>136</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>Trade Data System
+halign=left
+group=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>184</x>
+      <y>1064</y>
+      <w>544</w>
+      <h>224</h>
+    </coordinates>
+    <panel_attributes>
+Risk Calculator System
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>536</x>
+      <y>1376</y>
+      <w>152</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>
+Reference Data System
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>272</x>
+      <y>1272</y>
+      <w>184</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-&gt;&gt;
+read trade history data</panel_attributes>
+    <additional_attributes>210.0;10.0;10.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>456</x>
+      <y>1272</y>
+      <w>184</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-&gt;&gt;
+read reference data of counterparty</panel_attributes>
+    <additional_attributes>30.0;10.0;190.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>304</x>
+      <y>1008</y>
+      <w>136</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+Sends report/alerts</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>496</x>
+      <y>928</y>
+      <w>192</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;
+Update Parameters</panel_attributes>
+    <additional_attributes>10.0;10.0;200.0;280.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>232</x>
+      <y>976</y>
+      <w>128</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Notification System
+(eg. JMS)
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>192</x>
+      <y>848</y>
+      <w>96</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>Business User
+(Subscriber)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>440</x>
+      <y>848</y>
+      <w>104</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>Business User
+(Admin/Manager)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>248</x>
+      <y>928</y>
+      <w>96</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+send email</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>312</x>
+      <y>928</y>
+      <w>160</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+send email</panel_attributes>
+    <additional_attributes>180.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>208</x>
+      <y>1224</y>
+      <w>64</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>DBMS
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>416</x>
+      <y>1248</y>
+      <w>80</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>XML Reader
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>208</x>
+      <y>1112</y>
+      <w>80</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>Excel Writer
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>400</x>
+      <y>1152</y>
+      <w>136</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>Risk Scorer
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>264</x>
+      <y>1168</y>
+      <w>152</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-&gt;&gt;
+read/write data</panel_attributes>
+    <additional_attributes>170.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>448</x>
+      <y>1192</y>
+      <w>96</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-&gt;&gt;
+read/write data</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>1120</y>
+      <w>136</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-&gt;&gt;
+write file</panel_attributes>
+    <additional_attributes>150.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>344</x>
+      <y>1056</y>
+      <w>128</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;
+send alert</panel_attributes>
+    <additional_attributes>140.0;120.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>1056</y>
+      <w>104</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;
+attach file</panel_attributes>
+    <additional_attributes>10.0;90.0;90.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>616</x>
+      <y>1152</y>
+      <w>80</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>Configuration
+/ Parameters
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>528</x>
+      <y>1160</y>
+      <w>104</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-&gt;&gt;
+read conf</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>304</x>
+      <y>1928</y>
+      <w>136</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;Component&gt;
+RiskCalculatorSystem
+-
++generateReport()
++notify()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>600</x>
+      <y>1960</y>
+      <w>136</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>&lt;Component&gt;
+RiskScorer
+-
++calculateRiskScore()
++readConfig()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>504</x>
+      <y>1752</y>
+      <w>144</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>&lt;Component&gt;
+ReportService
+-
++createReport()
++getReport()
++saveReport()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>296</x>
+      <y>1672</y>
+      <w>144</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>&lt;Component&gt;
+UserService
+-
++addUser()
++removeUser()
++addRole(User, Role)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>600</x>
+      <y>1864</y>
+      <w>200</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>&lt;Component&gt;
+Configurer
+-
++setConfig(String name, Object Value)
++readConfig(String name)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>496</x>
+      <y>2064</y>
+      <w>200</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>&lt;Component&gt;
+FileService
+-
++ReadXML(File file)
++WriteEXCEL(List&lt;Object&gt; objList)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>240</x>
+      <y>2144</y>
+      <w>200</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>&lt;Component&gt;
+NotificationService
+-
++SendEmail(String msg)
++SendReport(File file)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>80</x>
+      <y>2008</y>
+      <w>144</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>&lt;View&gt;
+BusinessUserInterface
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>80</x>
+      <y>1832</y>
+      <w>200</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>&lt;View&gt;
+AdminInterface
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>128</x>
+      <y>1896</y>
+      <w>24</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;140.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>272</x>
+      <y>1856</y>
+      <w>344</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>410.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>216</x>
+      <y>1976</y>
+      <w>104</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>110.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>216</x>
+      <y>2072</y>
+      <w>88</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;90.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>432</x>
+      <y>1904</y>
+      <w>184</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>210.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>432</x>
+      <y>1968</y>
+      <w>184</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>210.0;30.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>432</x>
+      <y>1984</y>
+      <w>136</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>150.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>432</x>
+      <y>1816</y>
+      <w>88</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>392</x>
+      <y>1744</y>
+      <w>40</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;30.0;230.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>1696</y>
+      <w>176</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>200.0;10.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>392</x>
+      <y>2000</y>
+      <w>40</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;180.0;30.0;10.0</additional_attributes>
+  </element>
+</diagram>
